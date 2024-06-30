@@ -52,7 +52,6 @@ Here's a brief guide on how to use pygit-basic:
 1. Initialize a Repository
 
    ```python
-   Copy code
    from pygit_basic import init_repo
    init_repo('./my_repo')
    ```
@@ -60,7 +59,6 @@ Here's a brief guide on how to use pygit-basic:
 2. Add Files:
 
    ```python
-   Copy code
    from pygit_basic import add
    add('./my_repo', 'file1.txt')
    ```
@@ -68,7 +66,6 @@ Here's a brief guide on how to use pygit-basic:
 3. Commit Changes:
 
    ```python
-   Copy code
    from pygit_basic import commit
    commit('./my_repo', 'Initial commit')
    ```
@@ -76,7 +73,6 @@ Here's a brief guide on how to use pygit-basic:
 4. View Commit History:
 
    ```python
-   Copy code
    from pygit_basic import log
    log('./my_repo')
    ```
