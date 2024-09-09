@@ -15,4 +15,3 @@ def init_repo(repo_path):
         f.write("ref: refs/heads/master\n")
 
     print(f"Initialized empty pygit repository in {repo_path}")
-
